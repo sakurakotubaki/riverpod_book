@@ -6,7 +6,7 @@ part of 'main.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$delayedCounterHash() => r'f2fa246191719b39b400f94446d722e809b78e0e';
+String _$delayedCounterHash() => r'671c72864a2d07633ac6562442bdd8b7abe50e9f';
 
 /// See also [delayedCounter].
 @ProviderFor(delayedCounter)
@@ -24,7 +24,7 @@ final delayedCounterProvider = AutoDisposeFutureProvider<int>.internal(
 @Deprecated('Will be removed in 3.0. Use Ref instead')
 // ignore: unused_element
 typedef DelayedCounterRef = AutoDisposeFutureProviderRef<int>;
-String _$countHash() => r'ecc77acb0054a82c161b5ea71c1b328a8219b977';
+String _$countHash() => r'4303d070e43644420f2a7bd86737a860158f4183';
 
 /// See also [Count].
 @ProviderFor(Count)
