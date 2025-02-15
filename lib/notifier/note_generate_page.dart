@@ -66,7 +66,7 @@ class NoteGeneratePage extends ConsumerWidget {
                       final note = noteAppGenerater[index];
                       return ListTile(
                         title: Text(
-                          'id: ${note} memo: ${note.body}',
+                          'id: $note memo: ${note.body}',
                         ), // idとフォームから入力された値を表示.
                         subtitle: Text(
                           note.createdAt.toIso8601String(),
